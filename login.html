@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Screen</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="principal">
+        <div id="confirmation">
+            <h1>Welcome back!</h1>
+
+            <form action="">
+                <label for="user">User name:</label>
+                <input type="text" name="user" id="user">
+                
+                <label for="password">Password:</label>
+                <input type="text" name="password" id="password">
+            </form>
+
+            <button id="enter">Login</button>
+            <button id="newUser"><a href="register.html">New user</a></button>
+        </div>
+
+        <img src="images/watermark-foa-black.png" alt="">
+
+        <div id="warning">
+            <div id="message">
+                <p> <strong>Uhh, looks like you is a new user.</strong> </p>
+                <p>Please, make register to continue.</p>
+    
+                <button id="newUSer"><a href="register.html">Register</a></button>
+            </div>
+        </div>
+
+        <div id="passReset">
+            <div id="message">
+                <p><strong>Forgot your password?</strong></p>
+                <p>Reset it now:</p>
+
+                <form action="">
+                    <label for="nPass">New password:</label>
+                    <input type="numeric" id="nPass">
+                </form>
+            
+                <button id="save">Save</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>    
+</body>
+</html>
